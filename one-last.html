@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Last Time</title>
+  <link rel="stylesheet" href="./index.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <video width="200" autoplay muted loop>
+        <source src="./images/cat.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <h1>One last time —</h1>
+    <h1>Be my girlfriend?  DASOLA</h1>
+
+    <div class="buttons">
+      <button onclick="sendAnswer('YES 💕','yes.html')" class="agree">
+        OF COURSE
+      </button>
+
+      <button onclick="sendAnswer('NO 💔','potion.html')" class="disagree">
+        I SAID NO
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

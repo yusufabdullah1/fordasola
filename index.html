@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Proposer</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <video width="200" autoplay muted loop>
+        <source src="./images/happy.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div>
+      <h1>Will you be my girlfriend?  DASOLA</h1>
+    </div>
+
+    <div class="buttons">
+      <a href="yes.html">
+      <button onclick="sendAnswer('YES 💕')" class="agree">OF COURSE</button>
+      </a>
+
+      <a href="no.html">
+      <button onclick="sendAnswer('NO 💔')" class="dagree">NO</button>
+      </a>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
